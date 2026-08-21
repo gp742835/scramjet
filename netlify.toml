@@ -1,0 +1,8 @@
+[build]
+  command = "bash scripts/netlify-build.sh"
+  publish = "packages/demo/dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  PNPM_VERSION = "10.12.1"
+  RUSTUP_TOOLCHAIN = "nightly"
